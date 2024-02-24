@@ -1,0 +1,3 @@
+bucket name: mal-amarre
+Acces key: AKIA3TUYPOWYAFZBYL5J
+secre password: 3zNatpmFQXeAafTx+Z6CG3mtv4TgCrEUo9LYFke9

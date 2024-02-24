@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "adresses",
+  "info": {
+    "singularName": "adress",
+    "pluralName": "adresses",
+    "displayName": "Adress",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Calle": {
+      "type": "string",
+      "required": true
+    },
+    "Colonia": {
+      "type": "string",
+      "required": true
+    },
+    "Numero": {
+      "type": "string",
+      "required": true
+    },
+    "Ciudad": {
+      "type": "string",
+      "required": true
+    },
+    "CodigoPostal": {
+      "type": "string",
+      "required": true
+    },
+    "Telefono": {
+      "type": "string",
+      "required": true
+    },
+    "entreCalles": {
+      "type": "text"
+    },
+    "user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    }
+  }
+}

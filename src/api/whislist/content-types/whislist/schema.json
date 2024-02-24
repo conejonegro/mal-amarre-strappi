@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "whislists",
+  "info": {
+    "singularName": "whislist",
+    "pluralName": "whislists",
+    "displayName": "Whislist",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "obra": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::obra.obra"
+    }
+  }
+}
